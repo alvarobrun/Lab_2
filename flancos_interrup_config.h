@@ -14,7 +14,7 @@ CNEN0A = 1;\
 CNEN1A =0;\
   } while(0);
 
-#define BTNX_SetIntBothEdge() do {\
+#define BTNA_SetIntBothEdge() do {\
 CNEN0A = 1;\
 CNEN1A =1;\
   } while(0);
@@ -23,18 +23,18 @@ CNEN1A =1;\
 //------------- Boton B ------------------
 
 #define BTNB_SetIntLowEdge() do {\
-CNEN0A = 0;\
-CNEN1A = 1;\
+CNEN0B = 0;\
+CNEN1B = 1;\
 } while(0);
 
 #define BTNB_SetIntHighEdge() do {\
-CNEN0A = 1;\
-CNEN1A =0;\
+CNEN0B = 1;\
+CNEN1B =0;\
   } while(0);
 
 #define BTNB_SetIntBothEdge() do {\
-CNEN0A = 1;\
-CNEN1A =1;\
+CNEN0B = 1;\
+CNEN1B =1;\
   } while(0);
 
 
